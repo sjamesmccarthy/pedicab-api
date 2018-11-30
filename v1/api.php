@@ -166,7 +166,8 @@ class API {
 	/* The getStatusCodeMessage() method above will provide descriptions to the codes */
 	public function sendResponse($status = 200, $body = '', $content_type = 'text/html')
 	{
-	    $status_header = 'HTTP/1.1 ' . $status . ' ' . $this->getStatusCodeMessage($status);
+		$status_header = 'HTTP/1.1 ' . $status . ' ' . $this->getStatusCodeMessage($status);
+		header($status_header);
 	    header("Access-Control-Allow-Origin: *");
 	    header('Content-type: ' . $content_type);
 	    echo $body;
