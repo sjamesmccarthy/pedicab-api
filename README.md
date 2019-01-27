@@ -17,5 +17,7 @@ __Returned Result:__
 {"title":"Quam Sit","content":"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."}
 
 __Still Todo:__  
-1. Implement public API Key  
-2. Implement private API Secret Key  
+1. Implement public API Key (http://php.net/manual/en/features.http-auth.php)
+2. Implement private API Secret Key 
+3. Move database credentials to config JSON file
+4. Validate headers on requests (http://php.net/manual/en/function.get-headers.php, https://developer.mozilla.org/en-US/docs/Web/HTTP/Server-Side_Access_Control)
