@@ -1,4 +1,4 @@
-pedicabAPI (v2)
+pedicab-api (v2)
 =============
 
 pedicabAPI is a simple PHP RESTful API that returns JSON  
