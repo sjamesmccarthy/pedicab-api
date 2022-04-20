@@ -16,10 +16,9 @@ __Returned Result:__
 {"title":"Quam Sit","content":"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."}
 
 __Still Todo:__  
-1. Update Api class
+1. Modernize Api class +basic AUTH
 2. Change how ENDPOINTS are created and interpretted (router vs. no-router) 
-3. Simple Auth
-4. Test in PHP 8
+3. Test in PHP 8 (forward compatibility)
 
 pedicabAPI v1 (deprecated)
 =============
