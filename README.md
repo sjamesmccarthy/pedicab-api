@@ -1,10 +1,33 @@
-pedicabAPI
+pedicabAPI (v2)
 =============
 
 pedicabAPI is a simple PHP RESTful API that returns JSON  
 
 __Requires:__  
-PHP 5.0, Apache htaccess  
+PHP 7.0 (min), Apache mod_rewrite (currently)
+
+__License:__  
+GPL 3, http://opensource.org/licenses/GPL-3.0
+
+__Usage:__  
+http://[domain]/[version]/{ENDPOINT-CLASS}/[verb]/{PARAMS}/
+
+__Returned Result:__  
+{"title":"Quam Sit","content":"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."}
+
+__Still Todo:__  
+1. Update Api class
+2. Change how ENDPOINTS are created and interpretted (router vs. no-router) 
+3. Simple Auth
+4. Test in PHP 8
+
+pedicabAPI v1 (deprecated)
+=============
+
+pedicabAPI is a simple PHP RESTful API that returns JSON  
+
+__Requires:__  
+PHP 5.0, Apache htaccess (mod_rewrite) 
 
 __License:__  
 GPL 3, http://opensource.org/licenses/GPL-3.0
